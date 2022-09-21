@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
-            // Form1
+            // progressBar1
+            // 
+            this.progressBar1.ForeColor = System.Drawing.Color.ForestGreen;
+            this.progressBar1.Location = new System.Drawing.Point(594, 358);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(668, 47);
+            this.progressBar1.TabIndex = 0;
+            this.progressBar1.UseWaitCursor = true;
+            // 
+            // monitor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1888, 999);
+            this.Controls.Add(this.progressBar1);
             this.Name = "monitor";
             this.Text = "Monitor - RVSMS v0.1";
             this.ResumeLayout(false);
@@ -42,5 +53,7 @@
         }
 
         #endregion
+
+        private ProgressBar progressBar1;
     }
 }

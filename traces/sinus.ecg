@@ -1,0 +1,15 @@
+[ecg]
+p = 
+q = 
+r = 
+s = 
+t = 
+[vitals]
+HRmin = 
+HRmax = 
+O2min = 
+O2max = 
+SYSmin = 
+SYSmax = 
+DIEmin = 
+DIEmax = 
